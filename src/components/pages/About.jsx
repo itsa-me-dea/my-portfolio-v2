@@ -1,14 +1,14 @@
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
+      <img id="my-pic" src="Assets/my profile pic.jpg" alt="image of me with my chinchilla" width="400"/>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+      Hi there. Hello! My name is Nhadea Lensky. 
+      <br></br><br></br>
+      I am a nerd for anything STEM or gaming related. I am new to the code game, but so far my experience has only made me more excited to learn. Thus far, I have dabbled in HTML, CSS, JavaScript and MERN Stack. I have been exposed to Matlab and Python, but it has been <i>years</i> since I've touched either of those. I'm interested in pursuing more in computer science, but let's just see how this coding bootcamp goes. Cheers!
+      <br></br><br></br>
+      <b>Fun Fact:</b> I have two chinchillas. Zoe was kind enough to take a picture with me, but my boy Ollie was being rude. Good thing he's cute...
       </p>
     </div>
   );
