@@ -54,7 +54,7 @@ function Contact() {
   };
 
   const isValidEmail = (email) => {
-    // Regular expression pattern for basic email validation
+    // regex for basic email validation
     const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     return emailPattern.test(email);
   };
@@ -67,7 +67,7 @@ function Contact() {
           value={name}
           name="name"
           onChange={handleNameChange}
-          onBlur={handleNameBlur} // Add onBlur event handler
+          onBlur={handleNameBlur}
           type="text"
           placeholder="Name"
           required
@@ -77,7 +77,7 @@ function Contact() {
           value={email}
           name="email"
           onChange={handleEmailChange}
-          onBlur={handleEmailBlur} // Add onBlur event handler
+          onBlur={handleEmailBlur}
           type="email"
           placeholder="Email"
           required

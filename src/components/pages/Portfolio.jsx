@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Portfolio.css';
 import kirbo from '../../images/kirbo-test.gif';
 
