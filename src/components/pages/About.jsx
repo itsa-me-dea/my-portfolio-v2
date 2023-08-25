@@ -1,8 +1,10 @@
+import kirbo from '../../images/kirbo-test.gif';
+
 export default function About() {
   return (
     <div>
       <h1>About Me</h1>
-      <img id="my-pic" src="src/images/kirbo-test.gif" alt="image of me with my chinchilla" width="400"/>
+      <img id="my-pic" src={kirbo} alt="kirbo" width="400"/>
       <p>
       Hi there. Hello! My name is Nhadea Lensky. 
       <br></br><br></br>
