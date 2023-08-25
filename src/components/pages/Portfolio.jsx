@@ -1,20 +1,68 @@
+import React, { useState } from 'react';
+import './Portfolio.css';
+import kirbo from '../../images/kirbo-test.gif';
+
 export default function Portfolio() {
-    return (
-      <div>
-        <h1>My Portfolio</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-          velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-          ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-          non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-          ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-          rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-          tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-          porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-          vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-          fames ac ante ipsum primis in faucibus.
-        </p>
+  const [focusedImage, setFocusedImage] = useState(null);
+
+  const handleImageFocus = (imageIndex) => {
+    setFocusedImage(imageIndex);
+  };
+
+  const handleImageBlur = () => {
+    setFocusedImage(null);
+  };
+
+  const portfolioImages = [
+    {
+      src: kirbo,
+      alt: 'Image 1',
+      overlayText: 'Project 1',
+    },
+    {
+      src: kirbo,
+      alt: 'Image 2',
+      overlayText: 'Project 2',
+    },
+    {
+      src: kirbo,
+      alt: 'Image 1',
+      overlayText: 'Project 3',
+    },
+    {
+      src: kirbo,
+      alt: 'Image 2',
+      overlayText: 'Project 4',
+    },
+    {
+      src: kirbo,
+      alt: 'Image 1',
+      overlayText: 'Project 5',
+    },
+    {
+      src: kirbo,
+      alt: 'Image 2',
+      overlayText: 'Project 6',
+    },
+  ];
+
+  return (
+    <div className="portfolio-container">
+      <h1>My Portfolio</h1>
+      <div className="image-grid">
+        {portfolioImages.map((image, index) => (
+          <div
+            key={index}
+            className={`image-wrapper ${focusedImage === index ? 'focused' : ''}`}
+            onFocus={() => handleImageFocus(index)}
+            onBlur={handleImageBlur}
+            tabIndex={0}
+          >
+            <img src={image.src} alt={image.alt} />
+            <div className="overlay">{image.overlayText}</div>
+          </div>
+        ))}
       </div>
-    );
-  }
-  
+    </div>
+  );
+}
