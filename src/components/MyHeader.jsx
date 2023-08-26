@@ -7,7 +7,7 @@ const headerImage = {
   backgroundPosition: 'center',
   textAlign: 'center',
   color: 'white',
-  height: '80px',
+  height: '120px',
 };
 
 function MyHeader() {

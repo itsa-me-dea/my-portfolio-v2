@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import './Portfolio.css';
-import './style.css';
 // IMAGES
 import JATE from '../../images/JATE.png';
 import socialDB from '../../images/socialmediaDB.png';
@@ -101,11 +99,11 @@ export default function Portfolio() {
                   {image.overlayText}
                 </div>
                 <div className="link-item">
-                  <a href={image.repo}>Repo</a>
+                  <a className="actual-link" href={image.repo}>Repo</a>
                 </div>
                 {image.link && (
                 <div className="link-item">
-                  <a href={image.link}>Link</a>
+                  <a className="actual-link" href={image.link}>Link</a>
                 </div>
                 )}
               </div>

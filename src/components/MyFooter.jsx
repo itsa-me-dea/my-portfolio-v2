@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 
 const footerStyle = {
-  backgroundColor: 'black',
-  color: 'white',
+  backgroundColor: '#224769',
+  color: 'pink',
   padding: '30px 20px 20px 0px',
   textAlign: 'center',
 };

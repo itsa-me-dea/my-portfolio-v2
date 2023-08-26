@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './style.css';
 
 function Contact() {
   const [name, setName] = useState('');

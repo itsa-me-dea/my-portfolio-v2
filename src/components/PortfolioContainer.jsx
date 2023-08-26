@@ -6,6 +6,7 @@ import Resume from './pages/Resume';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
+import './pages/style.css';
 
 const pageStyle = {
   display: 'flex',
