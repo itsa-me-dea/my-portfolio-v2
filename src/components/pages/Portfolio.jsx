@@ -2,14 +2,14 @@ import { useState } from 'react';
 import './Portfolio.css';
 import './style.css';
 // IMAGES
-import JATE from '../../images/kirbo-test.gif';
-import socialDB from '../../images/kirbo-test.gif';
-import expressNotes from '../../images/kirbo-test.gif';
-import README from '../../images/kirbo-test.gif';
-import scheduler from '../../images/kirbo-test.gif';
-import quiz from '../../images/kirbo-test.gif';
-import password from '../../images/kirbo-test.gif';
-import studyGuide from '../../images/kirbo-test.gif';
+import JATE from '../../images/JATE.png';
+import socialDB from '../../images/socialmediaDB.png';
+import expressNotes from '../../images/noteTaker.png';
+import README from '../../images/READMEgen.png';
+import scheduler from '../../images/scheduler.png';
+import quiz from '../../images/codingQuiz.png';
+import password from '../../images/passwordGen.png';
+import studyGuide from '../../images/studyGuide.png';
 
 
 export default function Portfolio() {
@@ -68,14 +68,14 @@ export default function Portfolio() {
     },
     {
       src: password,
-      alt: 'Image 1',
+      alt: 'Password Generator',
       overlayText: 'Password Generator',
       repo: 'https://github.com/itsa-me-dea/03-Challenge-PasswordGenerator',
       link: 'https://itsa-me-dea.github.io/03-Challenge-PasswordGenerator/',
     },
     {
       src: studyGuide,
-      alt: 'Image 2',
+      alt: 'Prework Study Guide',
       overlayText: 'Prework Study Guide',
       repo: 'https://github.com/itsa-me-dea/prework-study-guide',
       link: 'https://itsa-me-dea.github.io/prework-study-guide/',
