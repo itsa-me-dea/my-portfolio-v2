@@ -1,9 +1,13 @@
 import kirbo from '../../images/kirbo-test.gif';
 
+const centerText = {
+  textAlign: 'center',
+};
+
 export default function About() {
   return (
     <div>
-      <h1>About Me</h1>
+      <h1 style={centerText}>About Me</h1>
       <img id="my-pic" src={kirbo} alt="kirbo" width="400"/>
       <p>
       Hi there. Hello! My name is Nhadea Lensky. 

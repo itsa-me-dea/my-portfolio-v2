@@ -1,7 +1,11 @@
+const centerText = {
+  textAlign: 'center',
+};
+
 export default function Resume() {
     return (
       <div>
-        <h1>My Resume</h1>
+        <h1 style={centerText}>My Resume</h1>
         <h5>TECHNICAL SKILLS</h5>
         <p><b>Developer:</b> JavaScript ES6+, CSS3, HTML5, NoSQL, GitHub, MongoDB, MySQL, Express, React, Node, Handlebars, jQuery, Bootstrap</p>
         <p><b>Lab:</b> UV-VIS Spectrometer, Microscopy, SEM, HPLC, GC, Viscometer, pH Meter, Osmometer, iCE3 cIEF, DLS, Solo VPE, GMP, Data Review</p>
