@@ -13,7 +13,7 @@ I learned a great deal on how to utilize React when rebuilding my portfolio (you
 
 ## Installation
 
-Deployed site (installation not needed): https://itsa-my-portfolio.netlify.app/#aboutMe
+Deployed site (installation not needed): https://itsa-my-portfolio.netlify.app/
 
 ## Usage
 
