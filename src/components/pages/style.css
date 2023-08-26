@@ -33,3 +33,20 @@ input:focus::placeholder, textarea:focus::placeholder {
   box-sizing: border-box;
 }
 
+.overlay-text {
+  margin-bottom: 5px; // Add spacing between overlay text and links
+}
+
+.overlay-links {
+  display: flex;
+  flex-direction: column; // Display links in a column
+}
+
+.overlay-links .link-item {
+  margin-top: 5px; // Add spacing between links
+}
+
+.overlay-links a {
+  text-decoration: none;
+  color: #3498db;
+}
