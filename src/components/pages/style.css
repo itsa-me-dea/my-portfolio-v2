@@ -168,3 +168,24 @@ input:focus::placeholder, textarea:focus::placeholder {
   text-decoration: none;
   color: orange;
 }
+
+/* Resume CSS */
+.resume p {
+  padding-left: 50px;
+}
+
+.pdf {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.pdf button { 
+  background-color: #224769;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.pdf button:hover { 
+  background-color: #131323;
+}
