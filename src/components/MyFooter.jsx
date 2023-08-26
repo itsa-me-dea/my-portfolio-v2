@@ -1,7 +1,9 @@
 import React from 'react';
+// Font awesome imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 
+// CSS Styling
 const footerStyle = {
   backgroundColor: '#224769',
   color: 'pink',
@@ -13,6 +15,7 @@ const iconStyle = {
   margin: '10px',
 };
 
+// Footer HTML
 function MyFooter() {
   return (
     <footer style={footerStyle}>

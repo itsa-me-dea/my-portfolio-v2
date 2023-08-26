@@ -1,5 +1,7 @@
+// Images
 import chill from '../images/chill-background.gif';
 
+// CSS Styling
 const headerImage = {
   backgroundImage: `url(${chill})`,
   backgroundRepeat: 'no-repeat',
@@ -10,6 +12,7 @@ const headerImage = {
   height: '120px',
 };
 
+// Header HTML
 function MyHeader() {
   return (
     <header style={headerImage}>

@@ -6,8 +6,10 @@ import Resume from './pages/Resume';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
+// CSS Styling
 import './pages/style.css';
 
+// CSS Styling
 const pageStyle = {
   display: 'flex',
   flexDirection: 'column',
@@ -20,8 +22,10 @@ const contentStyle = {
 };
 
 export default function PortfolioContainer() {
+  // Set default page
   const [currentPage, setCurrentPage] = useState('About');
 
+  // Change page when nav is slected
   const renderPage = () => {
     if (currentPage === 'About') {
       return <About />;
@@ -37,6 +41,7 @@ export default function PortfolioContainer() {
 
   const handlePageChange = (page) => setCurrentPage(page);
 
+  // Nav HTML
   return (
     <div style={pageStyle}>
       <MyHeader></MyHeader>

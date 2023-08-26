@@ -7,84 +7,41 @@
 
 ## Description
 
-<!-- My motivation was to build a text editor that runs in the browser and utilizes Progressive Web Applications (PWAs) for data persistence, offline functionality and app installation.
+This is my portfolio to showcase my skills and talents to future employers. This will act as my online resume to show my current (and future) projects. 
 
-I learned a great deal on how work with PWAs, including jwebpack bundles, service workers and manifests. -->
+I learned a great deal on how to utilize React when rebuilding my portfolio (you can find my orginal one [here](https://itsa-me-dea.github.io/02-Challenge-myPortfolio/), can't say I'm too happy with this one). I found that React is a lot more versatile than Handlebars, so I hope to do more work with React in the future .
 
 ## Installation
 
-<!-- Deployed site (installation not needed): https://lit-ocean-67030-1a0913892dd0.herokuapp.com/
-
--OR-
-
-Forking from Repo:
-1. Fork or download repository
-2. Open a terminal with the root directory
-3. In the terminal, enter `npm i`
-4. Enter `npm run build`
-5. Enter `npm run start`
-6. Open http://localhost:3000 in browser -->
+Deployed site (installation not needed): https://itsa-my-portfolio.netlify.app/#aboutMe
 
 ## Usage
 
-<!-- To review the webpage / application features, you can open up the DevTools (`Ctrl+Shift+I`) and navigate through the features. 
+Utilize the nav bar at the top of the page to navigate to the desired section.
 
-> **NOTE:** To consolidate, all images are displayed within the dropdown below.
+In "Portfolio", selecting the images will provide info and links related to that projects repo and deployed site (if applicable).
 
-<details>
-  <summary>J.A.T.E. Working Images</summary>
-    
-  The image below displays the Client-Server folder structure:  
+In "Resume", the button at the bottom will redirect you to my full complete resume.
 
-  <img src="./Assets/my-work-pics/mywork_clientServerStructure.png" alt="Client Server Structure" style="display: block; width: auto; height: auto; margin-right: auto; margin-left: auto; margin-bottom: 15px;">
-    
-  The gif below displays the build and start-up of the application:
+In "Contact Me", you can fill out the for with your name and vald email to shoot me a message.
 
-  <img src="./Assets/my-work-pics/mywork_startUp.gif" alt="Client Server Structure" style="display: block; width: auto; height: auto; margin-right: auto; margin-left: auto; margin-bottom: 15px;"> 
-        
-  The image below displays the text editor still functioning in the browser without errors:
+The footer contains icons linked to my LinkedIn, GitHub and Stack Overflow profiles.
 
-  <img src="./Assets/my-work-pics/mywork_noError.png" alt="POST Users" style="display: block; width: auto; height: auto; margin-right: auto; margin-left: auto; margin-bottom: 15px;"> 
-    
-  The gif below displays a working IndexedDB:
+The gif below displays my portfolio:  
 
-  <img src="./Assets/my-work-pics/mywork_indexedDB.gif" alt="Client Server Structure" style="display: block; width: auto; height: auto; margin-right: auto; margin-left: auto; margin-bottom: 15px;"> 
-    
-  The gif below displays the app installation from the webpage:
-
-  <img src="./Assets/my-work-pics/mywork_install.gif" alt="Client Server Structure" style="display: block; width: auto; height: auto; margin-right: auto; margin-left: auto; margin-bottom: 15px;">
-    
-  The gif below displays the registered service worker and offline use:
-
-  <img src="./Assets/my-work-pics/mywork_offline.gif" alt="Client Server Structure" style="display: block; width: auto; height: auto; margin-right: auto; margin-left: auto; margin-bottom: 15px;">
-    
-    
-   
-</details> -->
+<img src="./Assets/myPortfolio.gif" alt="itsa-me-dea portfolio" style="display: block; width: auto; height: auto; margin-right: auto; margin-left: auto; margin-bottom: 15px;">
 
 ## Credits
 
-<!-- - Collaborators: 
+- Collaborators: 
   - N/A.
 - Third-party assets: 
-  - https://www.npmjs.com/package/babel-loader
-  - https://www.npmjs.com/package/css-loader
-  - https://www.npmjs.com/package/html-webpack-plugin
-  - https://www.npmjs.com/package/style-loader
-  - https://webpack.js.org/
-  - https://www.npmjs.com/package/webpack-cli
-  - https://www.npmjs.com/package/webpack-dev-server
-  - https://www.npmjs.com/package/webpack-pwa-manifest
-  - https://www.npmjs.com/package/webpack-webpack-plugin
+  - https://fontawesome.com/
 - Tutorials: 
   - UCSD-VIRT-FSF-PT-03-2023-U-LOLC
-  - https://webpack.js.org/concepts/#loaders
-  - https://webpack.js.org/concepts/manifest/
-  - https://blog.jakoblind.no/css-modules-webpack/
-  - https://developer.mozilla.org/en-US/docs/Web/API/Request/destination
-  - https://developer.chrome.com/docs/workbox/modules/workbox-recipes/
-  - https://jasonthai.me/blog/2019/08/06/enable-offline-support-to-websites-with-workbox/
-  - https://stackoverflow.com/questions/66529102/uncaught-in-promise-typeerror-failed-to-execute-cache-on-addall-request -->
+  - https://www.w3schools.com/tags/att_input_required.asp
+  - https://medium.com/codex/how-to-style-an-input-field-with-css-only-tips-and-techniques-e6a00e9dcc50
+  - https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html
 
 ## License
 

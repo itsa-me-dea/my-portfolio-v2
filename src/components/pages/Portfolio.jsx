@@ -21,6 +21,7 @@ export default function Portfolio() {
     setFocusedImage(null);
   };
 
+  // List of images and associate links
   const portfolioImages = [
     {
       src: JATE,
@@ -80,10 +81,12 @@ export default function Portfolio() {
     },
   ];
 
+  // Page HTML
   return (
     <div className="portfolio-container">
       <h1>My Portfolio</h1>
       <div className="image-grid">
+        {/* Map info from portfolioImages */}
         {portfolioImages.map((image, index) => (
           <div
             key={index}
@@ -92,7 +95,10 @@ export default function Portfolio() {
             onBlur={handleImageBlur}
             tabIndex={0}
           >
+            {/* Images */}
             <img src={image.src} alt={image.alt} />
+
+            {/* Overlay (info / links) */}
             <div className="overlay">
               <div className="overlay-links">
                 <div className="link-item">

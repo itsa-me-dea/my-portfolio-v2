@@ -7,6 +7,7 @@ function Contact() {
   const [nameError, setNameError] = useState(false);
   const [emailError, setEmailError] = useState(false);
 
+  // Keeps user input
   const handleNameChange = (e) => {
     const { value } = e.target;
     setName(value);
@@ -36,6 +37,7 @@ function Contact() {
     }
   };
 
+  // Once user submits info, ensure required fields are filled and return a greeting
   const handleFormSubmit = (e) => {
     e.preventDefault();
     if (!isValidEmail(email)) {
@@ -52,16 +54,19 @@ function Contact() {
     setMessage('');
   };
 
+  // Email validator
   const isValidEmail = (email) => {
     // regex for basic email validation
     const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     return emailPattern.test(email);
   };
 
+  // Page HTML
   return (
     <div className="container text-center">
       <h1>Contact Me</h1>
       <form className="form" onSubmit={handleFormSubmit}>
+        {/* Name form */}
         <input
           value={name}
           name="name"
@@ -71,7 +76,10 @@ function Contact() {
           placeholder="Name"
           required
         />
+        {/* If name not entered enter error */}
         {nameError && <div className="error">Name is required</div>}
+        
+        {/* Email form */}
         <input
           value={email}
           name="email"
@@ -81,7 +89,10 @@ function Contact() {
           placeholder="Email"
           required
         />
+        {/* If email not entered enter error */}
         {emailError && <div className="error">Valid email is required</div>}
+        
+        {/* Message box */}
         <div className="input-container">
           <textarea 
             className="custom-input"
@@ -92,6 +103,7 @@ function Contact() {
           >
           </textarea>
         </div>
+        
         <button type="submit">Submit</button>
       </form>
     </div>

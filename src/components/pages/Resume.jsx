@@ -1,7 +1,9 @@
+// CSS Styling
 const centerText = {
   textAlign: 'center',
 };
 
+// Page HTML
 export default function Resume() {
     return (
       <div className='resume'>
@@ -18,6 +20,7 @@ export default function Resume() {
         <p><b>Certificate, Full Stack Web Development</b> – University of California Extension, San Diego | 09/2023</p>
         <p><b>M.S. Biomedical Nanoengineering</b> – University of California, San Diego | 06/2021</p>
         <p><b>B.S. Nanoengineering</b> – University of California, San Diego | 06/2020</p>
+        
         {/* Resume pdf */}
         <div className='pdf'>
           <form action="https://drive.google.com/file/d/1-U3Z8IV5M7s9kRAIynrsIcPWmuTWFlMN/view?usp=sharing">

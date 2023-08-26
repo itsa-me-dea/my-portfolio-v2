@@ -1,6 +1,8 @@
 import React from 'react';
+// Images
 import kirbo from '../../images/kirbo-test.gif';
 
+// CSS Styling
 const centerText = {
   textAlign: 'center',
 };
@@ -16,6 +18,7 @@ const imgStyle = {
   marginBottom: '20px'
 };
 
+// Page HTML
 export default function About() {
   return (
     <div>
