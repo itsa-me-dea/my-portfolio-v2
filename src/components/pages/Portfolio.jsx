@@ -9,7 +9,7 @@ import scheduler from '../../images/scheduler.png';
 import quiz from '../../images/codingQuiz.png';
 import password from '../../images/passwordGen.png';
 import studyGuide from '../../images/studyGuide.png';
-
+import thymeForLunch from '../../images/thymeForLunch.gif';
 
 export default function Portfolio() {
   const [focusedImage, setFocusedImage] = useState(null);
@@ -24,6 +24,13 @@ export default function Portfolio() {
 
   // List of images and associate links
   const portfolioImages = [
+    {
+      src: thymeForLunch,
+      alt: 'Thyme for Lunch Meal Planner',
+      overlayText: 'Thyme for Lunch',
+      repo: 'https://github.com/Esztergb/Thyme-for-Lunch',
+      link: 'https://thyme-for-lunch-ca35ba4e7fee.herokuapp.com/',
+    },
     {
       src: JATE,
       alt: 'just another text editor',
